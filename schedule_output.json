@@ -1,0 +1,146 @@
+[
+    {
+        "week": 1,
+        "division": "AA",
+        "team1": "Team 3 AA",
+        "team2": "Team 1 AA",
+        "field": "Bog",
+        "time": "17:00",
+        "day": "Wednesday"
+    },
+    {
+        "week": 2,
+        "division": "AA",
+        "team1": "Team 3 AA",
+        "team2": "Team 1 AA",
+        "field": "Bog",
+        "time": "10:00",
+        "day": "Saturday"
+    },
+    {
+        "week": 3,
+        "division": "AA",
+        "team1": "Team 1 AA",
+        "team2": "Team 3 AA",
+        "field": "Bog",
+        "time": "18:30",
+        "day": "Wednesday"
+    },
+    {
+        "week": 4,
+        "division": "AA",
+        "team1": "Team 2 AA",
+        "team2": "Team 3 AA",
+        "field": "Bog",
+        "time": "12:30",
+        "day": "Saturday"
+    },
+    {
+        "week": 1,
+        "division": "AAA",
+        "team1": "Team B AAA",
+        "team2": "Team C AAA",
+        "field": "Bog",
+        "time": "17:30",
+        "day": "Wednesday"
+    },
+    {
+        "week": 1,
+        "division": "AAA",
+        "team1": "Team D AAA",
+        "team2": "Team A AAA",
+        "field": "Bog",
+        "time": "19:00",
+        "day": "Wednesday"
+    },
+    {
+        "week": 2,
+        "division": "AAA",
+        "team1": "Team D AAA",
+        "team2": "Team A AAA",
+        "field": "Bog",
+        "time": "12:00",
+        "day": "Saturday"
+    },
+    {
+        "week": 2,
+        "division": "AAA",
+        "team1": "Team B AAA",
+        "team2": "Team C AAA",
+        "field": "Bog",
+        "time": "14:30",
+        "day": "Saturday"
+    },
+    {
+        "week": 3,
+        "division": "AAA",
+        "team1": "Team C AAA",
+        "team2": "Team B AAA",
+        "field": "Smith",
+        "time": "17:30",
+        "day": "Wednesday"
+    },
+    {
+        "week": 3,
+        "division": "AAA",
+        "team1": "Team D AAA",
+        "team2": "Team A AAA",
+        "field": "Smith",
+        "time": "19:00",
+        "day": "Wednesday"
+    },
+    {
+        "week": 4,
+        "division": "AAA",
+        "team1": "Team D AAA",
+        "team2": "Team A AAA",
+        "field": "Smith",
+        "time": "12:00",
+        "day": "Saturday"
+    },
+    {
+        "week": 4,
+        "division": "AAA",
+        "team1": "Team B AAA",
+        "team2": "Team C AAA",
+        "field": "Smith",
+        "time": "14:30",
+        "day": "Saturday"
+    },
+    {
+        "week": 1,
+        "division": "Majors",
+        "team1": "Cardinals",
+        "team2": "Pirates",
+        "field": "Smith",
+        "time": "18:00",
+        "day": "Wednesday"
+    },
+    {
+        "week": 1,
+        "division": "Majors",
+        "team1": "Mets",
+        "team2": "Dodgers",
+        "field": "Smith",
+        "time": "19:30",
+        "day": "Wednesday"
+    },
+    {
+        "week": 2,
+        "division": "Majors",
+        "team1": "Mets",
+        "team2": "Pirates",
+        "field": "Smith",
+        "time": "14:00",
+        "day": "Saturday"
+    },
+    {
+        "week": 2,
+        "division": "Majors",
+        "team1": "Cardinals",
+        "team2": "Dodgers",
+        "field": "Smith",
+        "time": "16:30",
+        "day": "Saturday"
+    }
+]

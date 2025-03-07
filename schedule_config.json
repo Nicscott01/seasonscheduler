@@ -1,0 +1,88 @@
+{
+    "season": {
+      "start_date": "2025-04-01",
+      "end_date": "2025-06-15",
+      "playoff_weekend": "2025-06-14"
+    },
+    "programs": {
+      "Baseball": ["AA", "AAA", "Majors"]
+    },
+    "divisions": {
+      "AA": {
+        "min_games": 10,
+        "max_games_per_week": 3,
+        "days_rest": 2,
+        "practice_length_minutes": 90,
+        "practices_per_week": 2,
+        "preferred_weekday_game_times": ["17:00", "18:30"],
+        "preferred_weekend_game_times": ["10:00", "12:30"],
+        "preferred_fields": [ "Bog" ],
+        "game_length": 120
+      },
+      "AAA": {
+        "min_games": 10,
+        "max_games_per_week": 3,
+        "days_rest": 2,
+        "practice_length_minutes": 120,
+        "practices_per_week": 2,
+        "preferred_weekday_game_times": ["17:30", "19:00"],
+        "preferred_weekend_game_times": ["12:00", "14:30"],
+        "preferred_fields": [ "Bog", "Smith" ],
+        "game_length": 120
+
+      },
+      "Majors": {
+        "min_games": 10,
+        "max_games_per_week": 3,
+        "days_rest": 1,
+        "practice_length_minutes": 120,
+        "practices_per_week": 3,
+        "preferred_weekday_game_times": ["18:00", "19:30"],
+        "preferred_weekend_game_times": ["14:00", "16:30"],
+        "preferred_fields": [ "Smith" ],
+        "game_length": 120
+
+      }
+    },
+    "fields": {
+      "Smith": {
+        "programs_allowed": ["Baseball"],
+        "divisions_allowed": ["AA", "AAA", "Majors"],
+        "has_lights": true,
+        "batting_cages": true,
+        "blackout_times": [
+          { "day": "Sunday", "start": "12:00", "end": "14:00" }
+        ]
+      },
+      "Bog": {
+        "programs_allowed": ["Softball"],
+        "divisions_allowed": ["AA", "AAA"],
+        "has_lights": false,
+        "batting_cages": false,
+        "blackout_times": []
+      }
+    },
+    "teams": [
+      { "name": "Team 1 AA", "division": "AA", "program": "Baseball" },
+      { "name": "Team 2 AA", "division": "AA", "program": "Baseball" },
+      { "name": "Team 3 AA", "division": "AA", "program": "Baseball" },
+      { "name": "Team A AAA", "division": "AAA", "program": "Baseball" },
+      { "name": "Team B AAA", "division": "AAA", "program": "Baseball" },
+      { "name": "Team C AAA", "division": "AAA", "program": "Baseball" },
+      { "name": "Team D AAA", "division": "AAA", "program": "Baseball" },
+      { "name": "Pirates", "division": "Majors", "program": "Baseball" },
+      { "name": "Dodgers", "division": "Majors", "program": "Baseball" },
+      { "name": "Mets", "division": "Majors", "program": "Baseball" },
+      { "name": "Cardinals", "division": "Majors", "program": "Baseball" }
+    ],
+    "special_games": [
+      {
+        "name": "Friday Night Lights",
+        "division": "Majors",
+        "field": "Smith",
+        "day_of_week": "Friday",
+        "time": "18:30"
+      }
+    ]
+  }
+  
